@@ -23,7 +23,7 @@ class WIoU_Scale:
     
     iou_mean = 1.
     monotonous = False
-    _momentum = 1 - pow(0.05, 1 / 216)
+    _momentum = 1 - pow(0.05, 1 / 1200)
     _is_train = True
 
     def __init__(self, iou):
